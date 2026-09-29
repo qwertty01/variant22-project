@@ -1,0 +1,13 @@
+# Этап 4: ls, cd, du, uniq и ошибки
+a
+ls
+ls -a
+ls -l
+du /
+du /docs
+uniq /notes.txt
+cd docs
+ls
+cd ..
+cd missing
+uniq /docs
