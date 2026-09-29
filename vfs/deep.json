@@ -1,0 +1,28 @@
+{
+  "type": "dir",
+  "children": [
+    {
+      "name": "level1",
+      "type": "dir",
+      "children": [
+        {
+          "name": "level2",
+          "type": "dir",
+          "children": [
+            {
+              "name": "level3",
+              "type": "dir",
+              "children": [
+                {
+                  "name": "deep.txt",
+                  "type": "file",
+                  "data": "ZGVlcCBmaWxlCg=="
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

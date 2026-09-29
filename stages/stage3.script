@@ -1,0 +1,8 @@
+# Этап 3: VFS и команды предыдущих этапов
+ls
+ls -a
+ls -l
+cd docs
+ls
+cd ..
+cd missing

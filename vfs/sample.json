@@ -1,0 +1,26 @@
+{
+  "type": "dir",
+  "children": [
+    {
+      "name": "readme.txt",
+      "type": "file",
+      "data": "SGVsbG8gZnJvbSBWUlMuCg=="
+    },
+    {
+      "name": "notes.txt",
+      "type": "file",
+      "data": "bGluZTEKbGluZTEKbGluZTIK"
+    },
+    {
+      "name": "docs",
+      "type": "dir",
+      "children": [
+        {
+          "name": "info.txt",
+          "type": "file",
+          "data": "aW5mbw=="
+        }
+      ]
+    }
+  ]
+}
