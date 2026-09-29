@@ -1,0 +1,12 @@
+# Этап 5: mkdir, touch, vfs-load и ошибки
+mkdir work
+touch work/new.txt
+ls work
+vfs-load vfs/deep.json
+ls
+cd level1/level2/level3
+ls
+du /
+cd missing
+mkdir level3/deeper
+touch level3/deeper/file.txt

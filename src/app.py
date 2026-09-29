@@ -32,8 +32,12 @@ def window_title() -> str:
 
 def load_script(path: str) -> list[str]:
     """Read a startup script and return executable non-comment lines."""
-    lines = Path(path).read_text(encoding="utf-8").splitlines()
-    return [line for line in lines if line.strip() and not line.lstrip().startswith("#")]
+    text = Path(path).read_text(encoding="utf-8")
+    lines = text.splitlines()
+    return [
+        line for line in lines
+        if line.strip() and not line.lstrip().startswith("#")
+    ]
 
 
 class EmulatorGui:
